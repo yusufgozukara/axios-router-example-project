@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "../img/logo.png";
 
-const Header = () => {
+const Nav = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="d-flex justify-content-between">
           <a class="navbar-brand" href="#">
             <img
@@ -43,4 +43,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Nav;
