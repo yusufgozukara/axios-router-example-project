@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div class="card">
+    <div class="card border-0">
       <div class="card-body m-4">
         <div>
           <h1 class="text-center mb-3">
