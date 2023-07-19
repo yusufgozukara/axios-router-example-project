@@ -3,9 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div class="card">
-      <div class="card-body">
+      <div class="card-body m-4">
         <div>
-          <p>
+          <h1 class="text-center mb-3">
+            React Router Nedir? Nasıl Kullanılır?
+          </h1>
+          <p style={{ textIndent: "50px", textAlign: "justify" }}>
             Servis çağrısı olmadan bir uygulama yazmak neredeyse imkansız.
             Dataları saklamak, dataları çekmek bunların hepsini web servisle
             aracılığıyla yapıyoruz. Axios tam olarak bize bu konuda yardımcı
@@ -15,13 +18,13 @@ const About = () => {
             aracılığıyla göndersin.
           </p>
 
-          <p>
+          <p style={{ textIndent: "50px", textAlign: "justify" }}>
             Uygulamanın kodlarını github’dan indirebilirsiniz. Uygulama çok
             basit üç tane buton var. Bunlar sırasıyla serverdan postları alıyor,
             post gönderiyor ve siliyor.
           </p>
 
-          <p>
+          <p style={{ textIndent: "50px", textAlign: "justify" }}>
             Öncelikle axios’u projemize import ettik. Statelerimizi tanımladık.
             UseEffect tanımladım ama kullanmadım. Sayfa yüklendikten sonra
             servis çağırmak isteseydik useeEfect hook’unu kullanacaktık. Servis
@@ -41,7 +44,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <p>
+          <p style={{ textIndent: "50px", textAlign: "justify" }}>
             React Router Nedir? Web sitelerinde gezerken aynı site içerisinde
             farklı sayfalar bulunmaktadır ve biz bu sayfalar arasında linkler
             vasıtası ile rahatlıkla gezebiliyoruz. Yine tek sayfa web
@@ -57,6 +60,8 @@ const About = () => {
             gelmektedir. Biz bu yazımızda BrowserRouter üzerine yoğunlaşacağız
             ve web uygulaması geliştirirken sayfalar arasında geçiş
             yapabileceğimiz menü ve linkleri nasıl inşa edeceğimizi göreceğiz.
+          </p>
+          <p style={{ textIndent: "50px", textAlign: "justify" }}>
             React Router Dom React Router kütüphanesi sayfalar arasında gezinmek
             için bize etkin bir yol sunar. Bunu web uygulamasında
             kullanabilmemiz için React Router Dom kütüphanesi devreye giriyor.

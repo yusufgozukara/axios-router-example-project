@@ -4,7 +4,7 @@ import logo from "../img/logo.png";
 const Nav = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <nav class="navbar navbar-expand-lg bg-success-subtle p-2 ">
         <div class="d-flex justify-content-between">
           <a class="navbar-brand" href="#">
             <img
