@@ -8,9 +8,10 @@ const Contact = () => {
       <div class="d-flex justify-content-evenly mt-5 ">
         <div class="card" style={{ width: "18rem" }}>
           <img
-            src="https://assets.stickpng.com/images/6297a2f1e01809629f113598.png"
+            src="https://img.freepik.com/free-icon/linkedin_318-157468.jpg?w=2000"
             class="card-img-top"
             alt="linked-in logo"
+            style={{ width: "200px", margin: "2.5rem auto 2rem" }}
           />
           <div class="card-body text-center">
             <h5 class="card-title mb-4">Linked-in</h5>
@@ -19,7 +20,7 @@ const Contact = () => {
               class="btn"
               target="_blank"
               style={{
-                backgroundColor: "#2797CF",
+                backgroundColor: "#007BB9",
                 color: "white",
                 marginBottom: "1.5rem",
               }}
@@ -33,6 +34,7 @@ const Contact = () => {
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             class="card-img-top"
             alt="github logo"
+            style={{ width: "270px", margin: "0 auto " }}
           />
           <div class="card-body text-center">
             <h5 class="card-title mb-4">GitHub</h5>
