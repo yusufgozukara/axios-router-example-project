@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
@@ -12,7 +12,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/notfound" element={<NotFound />} />
+          <Route path="*" element={<Navigate to="/notfound" />} />
         </Routes>
         <Footer />
       </BrowserRouter>
