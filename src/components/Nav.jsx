@@ -1,18 +1,20 @@
 import React from "react";
 import logo from "../img/logo.png";
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg bg-success-subtle p-2 ">
         <div class="d-flex justify-content-between">
-          <a class="navbar-brand" href="#">
+          <Link to="/">
             <img
               src={logo}
               alt="custom logo"
               style={{ width: "100px", marginLeft: "2rem" }}
             />
-          </a>
+          </Link>
+
           <span class="navbar-text">Axios ve React Router Çalışması</span>
           <button
             class="navbar-toggler"
@@ -27,14 +29,9 @@ const Nav = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ">
-              <a class="nav-link active" aria-current="page" href="#">
-                İletişim
-              </a>
-              <a class="nav-link" href="#">
-                Kullanıcılar
-              </a>
-
-              <a class="nav-link disabled">Ücretlendirme</a>
+              <NavLink to="/contact">İletişim</NavLink>
+              <NavLink to="/users">Kullanıcılar</NavLink>
+              <NavLink to="/payment">Ücretlendirme</NavLink>
             </div>
           </div>
         </div>
